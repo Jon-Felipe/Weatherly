@@ -1,6 +1,6 @@
 // components
 import Header from './components/Header';
-import Input from './components/Input';
+import SearchInput from './components/SearchInput';
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <div className='max-w-screen-xl m-auto p-16'>
         <Header />
         <section className='mt-8'>
-          <Input />
+          <SearchInput />
         </section>
       </div>
     </main>
