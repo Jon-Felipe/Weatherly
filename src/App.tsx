@@ -7,7 +7,7 @@ function App() {
     <main className='w-screen h-screen bg-blue-800'>
       <div className='max-w-screen-xl m-auto p-16'>
         <Header />
-        <section>
+        <section className='mt-8'>
           <Input />
         </section>
       </div>
