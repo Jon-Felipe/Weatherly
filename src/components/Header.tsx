@@ -1,9 +1,11 @@
-import React from 'react';
-
-type Props = {};
-
-function Header({}: Props) {
-  return <div>Header</div>;
+function Header() {
+  return (
+    <header>
+      <h1 className='text-4xl font-bold text-blue-400 tracking-wide'>
+        Weatherly
+      </h1>
+    </header>
+  );
 }
 
 export default Header;
